@@ -1,124 +1,112 @@
 {
-  "hints": [],
   "groups": [
     {
-      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean",
       "name": "alipay",
-      "type": "com.imooc.miaosha.alipay.AliPayConfigBean"
+      "type": "com.imooc.miaosha.alipay.AliPayConfigBean",
+      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean"
     },
     {
-      "sourceType": "com.imooc.miaosha.redis.RedisConfig",
       "name": "redis",
-      "type": "com.imooc.miaosha.redis.RedisConfig"
+      "type": "com.imooc.miaosha.redis.RedisConfig",
+      "sourceType": "com.imooc.miaosha.redis.RedisConfig"
     }
   ],
   "properties": [
     {
-      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean",
       "name": "alipay.app-id",
-      "type": "java.lang.String"
+      "type": "java.lang.String",
+      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean"
     },
     {
-      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean",
-      "defaultValue": "UTF-8",
       "name": "alipay.c-h-a-r-s-e-t",
-      "type": "java.lang.String"
+      "type": "java.lang.String",
+      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean"
     },
     {
-      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean",
       "name": "alipay.domain",
-      "type": "java.lang.String"
+      "type": "java.lang.String",
+      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean"
     },
     {
-      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean",
-      "defaultValue": "json",
       "name": "alipay.f-o-r-m-a-t",
-      "type": "java.lang.String"
+      "type": "java.lang.String",
+      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean"
     },
     {
-      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean",
-      "defaultValue": "\/log",
       "name": "alipay.log-path",
-      "type": "java.lang.String"
+      "type": "java.lang.String",
+      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean"
     },
     {
-      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean",
-      "defaultValue": "http:\/\/localhost:8080\/",
       "name": "alipay.notify-url",
-      "type": "java.lang.String"
+      "type": "java.lang.String",
+      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean"
     },
     {
-      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean",
       "name": "alipay.private-key",
-      "type": "java.lang.String"
+      "type": "java.lang.String",
+      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean"
     },
     {
-      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean",
       "name": "alipay.public-key",
-      "type": "java.lang.String"
+      "type": "java.lang.String",
+      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean"
     },
     {
-      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean",
-      "defaultValue": "http:\/\/localhost:8080\/",
       "name": "alipay.return-url",
-      "type": "java.lang.String"
+      "type": "java.lang.String",
+      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean"
     },
     {
-      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean",
-      "defaultValue": "RSA2",
       "name": "alipay.s-i-g-n-t-y-p-e",
-      "type": "java.lang.String"
+      "type": "java.lang.String",
+      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean"
     },
     {
-      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean",
       "name": "alipay.seller-id",
-      "type": "java.lang.String"
+      "type": "java.lang.String",
+      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean"
     },
     {
-      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean",
-      "defaultValue": "https:\/\/openapi.pay.com\/gateway.do",
       "name": "alipay.server-url",
-      "type": "java.lang.String"
+      "type": "java.lang.String",
+      "sourceType": "com.imooc.miaosha.alipay.AliPayConfigBean"
     },
     {
-      "sourceType": "com.imooc.miaosha.redis.RedisConfig",
       "name": "redis.host",
-      "type": "java.lang.String"
+      "type": "java.lang.String",
+      "sourceType": "com.imooc.miaosha.redis.RedisConfig"
     },
     {
-      "sourceType": "com.imooc.miaosha.redis.RedisConfig",
       "name": "redis.password",
-      "type": "java.lang.String"
+      "type": "java.lang.String",
+      "sourceType": "com.imooc.miaosha.redis.RedisConfig"
     },
     {
-      "sourceType": "com.imooc.miaosha.redis.RedisConfig",
-      "defaultValue": 0,
       "name": "redis.pool-max-idle",
-      "type": "java.lang.Integer"
+      "type": "java.lang.Integer",
+      "sourceType": "com.imooc.miaosha.redis.RedisConfig"
     },
     {
-      "sourceType": "com.imooc.miaosha.redis.RedisConfig",
-      "defaultValue": 0,
       "name": "redis.pool-max-total",
-      "type": "java.lang.Integer"
+      "type": "java.lang.Integer",
+      "sourceType": "com.imooc.miaosha.redis.RedisConfig"
     },
     {
-      "sourceType": "com.imooc.miaosha.redis.RedisConfig",
-      "defaultValue": 0,
       "name": "redis.pool-max-wait",
-      "type": "java.lang.Integer"
+      "type": "java.lang.Integer",
+      "sourceType": "com.imooc.miaosha.redis.RedisConfig"
     },
     {
-      "sourceType": "com.imooc.miaosha.redis.RedisConfig",
-      "defaultValue": 0,
       "name": "redis.port",
-      "type": "java.lang.Integer"
+      "type": "java.lang.Integer",
+      "sourceType": "com.imooc.miaosha.redis.RedisConfig"
     },
     {
-      "sourceType": "com.imooc.miaosha.redis.RedisConfig",
-      "defaultValue": 0,
       "name": "redis.timeout",
-      "type": "java.lang.Integer"
+      "type": "java.lang.Integer",
+      "sourceType": "com.imooc.miaosha.redis.RedisConfig"
     }
-  ]
+  ],
+  "hints": []
 }
