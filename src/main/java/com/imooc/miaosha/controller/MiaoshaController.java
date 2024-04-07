@@ -73,7 +73,12 @@ public class MiaoshaController implements InitializingBean {
 			localOverMap.put(goods.getId(), false);
 		}
 	}
-	
+
+	/**
+	 * 缓存重置
+	 * @param model
+	 * @return
+	 */
 	@RequestMapping(value="/reset", method=RequestMethod.GET)
     @ResponseBody
     public Result<Boolean> reset(Model model) {
@@ -90,6 +95,7 @@ public class MiaoshaController implements InitializingBean {
 	}
 	
 	/**
+	 * 秒杀下单
 	 * QPS:1306
 	 * 5000 * 10
 	 * QPS: 2114
@@ -149,6 +155,7 @@ public class MiaoshaController implements InitializingBean {
     }
     
     /**
+	 * 查询用户秒杀结果
      * orderId：成功
      * -1：秒杀失败
      * 0： 排队中

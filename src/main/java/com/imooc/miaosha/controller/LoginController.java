@@ -3,6 +3,7 @@ package com.imooc.miaosha.controller;
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 
+import com.imooc.miaosha.access.AccessLimit;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +15,8 @@ import com.imooc.miaosha.redis.RedisService;
 import com.imooc.miaosha.result.Result;
 import com.imooc.miaosha.service.MiaoshaUserService;
 import com.imooc.miaosha.vo.LoginVo;
+
+import java.util.concurrent.atomic.AtomicInteger;
 
 @Controller
 @RequestMapping("/login")
@@ -33,6 +36,7 @@ public class LoginController {
     }
     
     @RequestMapping("/do_login")
+    @AccessLimit(seconds = 5, maxCount = 5, needLogin = false)
     @ResponseBody
     public Result<String> doLogin(HttpServletResponse response, @Valid LoginVo loginVo) {
     	log.info(loginVo.toString());
